@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "ProductService",
+    "packageName": "io.vspace.micro",
+    "packageFolder": "io/vspace/micro",
+    "serverPort": 8081,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "Njc1ODc3ZmViZWYyMWQ5YTVlZmY3YThiMDQzZmFjYzNmN2JmMGM5YmU4NGU1YTUxMGRkNTljMzYxNTk0NGRlZDc2MWFiMjZjMzgwMmU4ZmE3YTdjYmY1NzIxNTUxN2NlZWQ1Y2Q2MDBiMjcyMDlkODdjZjE0YWRlM2UyOTc2ZGM=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "vinaylakkam",
+  "repository-name": "product-service"
+}
